@@ -7,7 +7,7 @@ describe('Tweet', function() {
     assert.isFunction(Tweet);
   });
 
-  it.skip('has a sender', function() {
+  it('has a sender', function() {
     var tweet = new Tweet('@LetaCodes', 'something brilliant');
 
     assert.equal(tweet.sender, '@LetaCodes');
